@@ -63,3 +63,5 @@ src/*.dll
 *.shp
 *.shp.xml
 *.shx
+*.html
+*.xml
