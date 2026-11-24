@@ -54,15 +54,5 @@ src/*.o
 src/*.so
 src/*.dll
 
-# shapefiles
-*.cpg
-*.dbf
-*.prj
-*.sbn
-*.sbx
-*.shp
-*.shp.xml
-*.shx
-*.html
-*.xml
-*.DS_Store
+# files downloaded from Geospatial Commons
+Geospatial_commons/
