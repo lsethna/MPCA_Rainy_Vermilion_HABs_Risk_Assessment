@@ -55,11 +55,11 @@ src/*.so
 src/*.dll
 
 # shapefiles
-.cpg
-.dbf
-.prj
-.sbn
-.sbx
-.shp
-.shp.xml
-.shx
+*.cpg
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.shp
+*.shp.xml
+*.shx
