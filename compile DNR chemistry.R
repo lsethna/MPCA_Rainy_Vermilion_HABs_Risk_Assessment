@@ -1,4 +1,4 @@
-## Create Rainy-Vermilion lake reference sheet to list lakes, available data, and sources ##
+## Compile DNR chemistry data ##
 ## script author : Lienne Sethna ##
 
 ## 1. housekeeping
