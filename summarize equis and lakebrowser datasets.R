@@ -65,7 +65,7 @@ equis_lakebrowser_summary <- equis_wids %>% full_join(lakebrowser_wids) %>%
                                            T ~ NA))
 equis_lakebrowser_summary %>% group_by(in_equis_lake_browser) %>% summarize(n=n())
 
-write.csv(equis_lakebrowser_summary,file="raw_data/equis_lakebrowser_summary.csv")
+write.csv(equis_lakebrowser_summary,file="summarized datasets/equis_lakebrowser_summary.csv")
 
 ## 6. Filter to analytes common in DNR and lake browser?
 #table of analytes and their count
