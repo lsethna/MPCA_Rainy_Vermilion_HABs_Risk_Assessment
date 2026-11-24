@@ -88,7 +88,7 @@ dnr_all <- dnr_all %>% mutate(analyte = case_when(analyte == "ph" ~ "pH",
                                                   analyte == "cond" ~ "conductivity",
                                                   T ~ analyte))
 
-write.csv(dnr_all, file="raw_data/MNDNR data/compiled_DNR_chemistry_1964_2025.csv")
+write.csv(dnr_all, file="summarized datasets/compiled_DNR_chemistry_1964_2025.csv")
 
 ## 4. create master list of  wids, number of observations, year, and lake name within source
 dnr_site_list <- dnr_all %>% group_by(dowid) %>%
